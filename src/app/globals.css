@@ -10,10 +10,6 @@
   font-family: "source-sans-light";
   src: url("../../public/assets/fonts/SourceSansPro-Light.otf");
 }
-@font-face {
-  font-family: "source-sans-semibold";
-  src: url("../../public/assets/fonts/SourceSansPro-Semibold.otf");
-}
 
 @tailwind base;
 @tailwind components;

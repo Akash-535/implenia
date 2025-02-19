@@ -30,8 +30,7 @@ export default {
     fontFamily:{
       "sans-bold":"source-sans-bold , sans-sarif",
       "sans-light":"source-sans-light ,sans-sarif",
-      "sans-regular":"source-sans-regular , sans-sarif",
-      "sans-semibold":"source-sans-semobold ,sans-sarif",
+      "sans-regular":"source-sans-regular , sans-sarif"
     },
     backgroundImage:{
       "hero-bg":"url('/assets/images/hero-bg.webp')",

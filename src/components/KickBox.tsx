@@ -10,7 +10,7 @@ import CustomButton from "./common/CustomButton";
 const KickBox = () => {
   const [count, setCount] = useState(false);
   const { ref } = useInView({
-    triggerOnce: true,
+    triggerOnce: false,
     onChange: (inView) => setCount(inView),
   });
   return (
@@ -44,7 +44,7 @@ const KickBox = () => {
                 />
               </span>
               <p className="text-custom-2xl leading-custom-xs font-bold font-sans-bold max-lg:text-xl max-md:text-lg">
-                {obj.description}
+                {obj}
               </p>
             </div>
           ))}
