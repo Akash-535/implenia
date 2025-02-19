@@ -20,7 +20,7 @@ const KickBox = () => {
         myClass="pt-4 pb-12 max-lg:pb-7 max-md:pb-4 max-sm:py-2 max-lg:text-center"
         text="Since 2019, our Kickbox Intrapreneurship Program has been inspiring employees across all divisions to turn their ideas into impactful solutions. From validating ideas (RedBox) to piloting projects (BlueBox) and driving implementation (GoldBox), Kickbox provides the tools and support to shape the future of Implenia. Become an intrapreneur yourself and bring your idea to life!"
       />
-      <div className="flex gap-[97px] items-center justify-center max-lg:flex-col max-xl:gap-20 max-lg:gap-14 max-md:gap-8 max-xl:flex-wrap">
+      <div className="flex gap-[97px] items-center justify-center max-lg:flex-col max-xl:gap-20 max-lg:gap-14 max-md:gap-8 max-sm:gap-1.5 max-xl:flex-wrap">
         <div
           ref={ref}
           className="flex gap-[52px] items-center w-full max-md:flex-wrap max-lg:gap-4 max-xl:justify-center"

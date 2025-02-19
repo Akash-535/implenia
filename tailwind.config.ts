@@ -36,6 +36,9 @@ export default {
     backgroundImage:{
       "hero-bg":"url('/assets/images/hero-bg.webp')",
       "how-work-bg":"url('/assets/images/how-work-img.webp')"
+    },
+    boxShadow:{
+     'header-shadow':"0px 4px 8px 0px #00000040"
     }
   },
   plugins: [],

@@ -7,7 +7,7 @@ import CustomButton from "./common/CustomButton";
 
 const Hero = () => {
   return (
-    <div className="bg-hero-bg bg-cover bg-center bg-no-repeat min--screen relative">
+    <div className="bg-hero-bg bg-cover bg-center bg-no-repeat relative">
       <Header />
       <Image
         data-aos="fade-up-right"
@@ -17,7 +17,7 @@ const Hero = () => {
         src={heroSideImg}
         alt="hero image"
       />
-      <div className="flex items-start justify-center flex-col h-full w-full p-[207px_16px_168px_132px] min-[1920.98px]:max-w-[1470px] min-[1920.98px]:mx-auto max-xl:pt-40 max-lg:pt-28 max-md:pt-24 max-xl:pl-20 max-lg:pl-5 max-lg:text-center max-lg:items-center max-lg:pb-24">
+      <div className="flex items-start justify-center flex-col h-full w-full xl:min-h-[662px] p-[207px_16px_168px_132px] min-[1920.98px]:max-w-[1470px] min-[1920.98px]:mx-auto max-xl:pt-40 max-lg:pt-28 max-md:pt-24 max-lg:pl-5 max-lg:text-center max-lg:items-center max-lg:pb-24">
         <Description
           text="Shape the future of Implenia!"
           myClass="text-white font-bold !font-sans-bold !leading-custom-xs !tracking-normal"

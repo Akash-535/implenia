@@ -11,7 +11,7 @@ const Header = () => {
     document.body.style.overflow = open ? "hidden" : "auto";
   }, [open]);
   return (
-    <div className="py-[18.5px] px-4 bg-white max-lg:py-4 max-sm:py-3">
+    <div className="py-[18.5px] px-4 bg-white max-lg:py-4 max-sm:py-3 shadow-header-shadow">
       <div className="max-w-[1177px] mx-auto flex justify-between items-center w-full">
         <Link href="#">
           <Image
@@ -39,7 +39,7 @@ const Header = () => {
         </div>
         <div
           onClick={() => setOpen(!open)}
-          className="z-[15] flex-col gap-1 lg:hidden flex"
+          className="z-[15] flex-col gap-1 lg:hidden flex cursor-pointer"
         >
           <span
             className={`w-8 h-1 bg-black duration-300 ease-linear rounded ${
