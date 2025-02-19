@@ -8,10 +8,13 @@ const HowWorks = () => {
   return (
     <div className="pt-[128px] pb-[144px] bg-custom-white px-4">
       <div className="max-w-[1098px] mx-auto">
-        <Heading text="HOW IT WORKS" myClass="pb-16 max-lg:pb-12 max-md:pb-8" />
+        <Heading
+          text="HOW IT WORKS"
+          myClass="pb-[65px] max-lg:pb-12 max-md:pb-8"
+        />
         <div
           onClick={() => setPlayVideo(!playVideo)}
-          className="bg-center cursor-pointer bg-cover bg-no-repeat bg-how-work-bg min-w-[1064px] max-xl:min-w-0 h-[580px] rounded-3xl relative"
+          className="bg-center cursor-pointer bg-cover bg-no-repeat bg-how-work-bg max-w-[1064px] max-xl:min-w-0 h-[580px] rounded-3xl relative max-lg:h-[450px] max-md:h-[320px]"
         >
           {playVideo ? (
             <iframe
@@ -21,18 +24,18 @@ const HowWorks = () => {
               className="w-full h-full rounded-3xl"
             />
           ) : (
-            <div className="w-full max-w-[372px] bg-[#F3B72C] py-[9px] px-[3px] h-[144px] absolute top-[24px] left-[29px] max-lg:max-w-80 max-md:max-w-60">
+            <div className="w-full max-w-[372px] bg-[#F3B72C] py-[9px] px-[3px] h-[144px] absolute top-[24px] left-[29px] max-lg:max-w-80 max-md:max-w-60 max-md:h-28 max-md:left-1/2 max-md:-translate-x-1/2">
               <Description
                 text="VIDEO CAN BE EXCHANGED FOR CAMPAIGNS."
-                myClass="text-center leading-custom-xs !font-bold !font-sans-bold"
+                myClass="text-center leading-custom-xs !font-bold !font-sans-bold max-md:text-base"
               />
               <Description
                 text="-Titel: Name of Campaign"
-                myClass="text-center leading-custom-xs !font-bold !font-sans-bold pt-7 max-lg:pt-5 max-md:pt-3.5"
+                myClass="text-center leading-custom-xs !font-bold !font-sans-bold max-md:text-base pt-7 max-lg:pt-3.5 max-md:pt-1.5"
               />
               <Description
                 text="-Button: Join the campaign!"
-                myClass="text-center leading-custom-xs !font-bold !font-sans-bold"
+                myClass="text-center leading-custom-xs !font-bold !font-sans-bold max-md:text-base"
               />
             </div>
           )}

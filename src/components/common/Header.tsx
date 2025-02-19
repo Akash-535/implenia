@@ -11,7 +11,7 @@ const Header = () => {
     document.body.style.overflow = open ? "hidden" : "auto";
   }, [open]);
   return (
-    <div className="py-[18px] px-4 bg-white max-lg:py-4 max-sm:py-3">
+    <div className="py-[18.5px] px-4 bg-white max-lg:py-4 max-sm:py-3">
       <div className="max-w-[1177px] mx-auto flex justify-between items-center w-full">
         <Link href="#">
           <Image
@@ -47,17 +47,17 @@ const Header = () => {
         >
           <span
             className={`w-8 h-1 bg-black duration-300 ease-linear rounded ${
-              open ? "rotate-45 translate-y-3" : ""
+              open && "rotate-45 translate-y-3 bg-custom-yellow"
             }`}
           ></span>
           <span
             className={`w-8 h-1 bg-black duration-300 ease-linear rounded ${
-              open ? "-translate-x-10 opacity-0 duration-700" : ""
+              open && "-translate-x-10 opacity-0 duration-700 bg-custom-yellow"
             }`}
           ></span>
           <span
             className={`w-8 h-1 bg-black duration-300 ease-linear rounded ${
-              open ? "-rotate-45 -translate-y-1" : ""
+              open && "-rotate-45 -translate-y-1 bg-custom-yellow"
             }`}
           ></span>
         </div>
