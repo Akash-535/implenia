@@ -13,7 +13,7 @@ const Hero = () => {
         data-aos="fade-up-right"
         width={340}
         height={400}
-        className="absolute -bottom-5 left-0 max-lg:w-[260px] max-md:w-[220px] max-sm:w-[190px] max-md:bottom-0"
+        className="absolute -bottom-5 left-0 max-lg:w-[260px] max-md:h-[280px] max-md:w-[220px] max-sm:h-[260px] max-sm:w-[190px] max-md:bottom-4"
         src={heroSideImg}
         alt="hero image"
       />
