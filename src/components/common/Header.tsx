@@ -31,11 +31,7 @@ const Header = () => {
             <Link
               href="#"
               key={i}
-              className={`text-base font-bold font-sans-bold leading-custom-2xl tracking-[0.28px] duration-300 ease-linear ${
-                i === 0
-                  ? "text-custom-yellow"
-                  : "text-black hover:text-custom-yellow"
-              }`}
+              className="text-base font-bold font-sans-bold leading-custom-2xl tracking-[0.28px] duration-300 ease-linear hover:text-custom-yellow"
             >
               {obj}
             </Link>

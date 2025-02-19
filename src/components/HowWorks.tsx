@@ -6,7 +6,7 @@ import Description from "./common/Description";
 const HowWorks = () => {
   const [playVideo, setPlayVideo] = useState(false);
   return (
-    <div className="pt-[128px] pb-[144px] bg-custom-white px-4">
+    <div className="pt-[128px] pb-[144px] bg-custom-white px-4 max-xl:py-28 max-lg:py-20 max-md:py-14">
       <div className="max-w-[1098px] mx-auto">
         <Heading
           text="HOW IT WORKS"
@@ -14,7 +14,7 @@ const HowWorks = () => {
         />
         <div
           onClick={() => setPlayVideo(!playVideo)}
-          className="bg-center cursor-pointer bg-cover bg-no-repeat bg-how-work-bg max-w-[1064px] max-xl:min-w-0 h-[580px] rounded-3xl relative max-lg:h-[450px] max-md:h-[320px]"
+          className="bg-center cursor-pointer bg-cover bg-no-repeat bg-how-work-bg max-w-[1064px] max-xl:min-w-0 h-[580px] rounded-3xl relative max-lg:h-[450px] max-md:h-[300px]"
         >
           {playVideo ? (
             <iframe
@@ -24,7 +24,7 @@ const HowWorks = () => {
               className="w-full h-full rounded-3xl"
             />
           ) : (
-            <div className="w-full max-w-[372px] bg-[#F3B72C] py-[9px] px-[3px] h-[144px] absolute top-[24px] left-[29px] max-lg:max-w-80 max-md:max-w-60 max-md:h-28 max-md:left-1/2 max-md:-translate-x-1/2">
+            <div className="w-full max-w-[372px] bg-[#F3B72C] py-[9px] px-[3px] h-[144px] absolute top-[24px] left-[29px] max-lg:max-w-80 max-md:max-w-60 max-md:h-32 max-md:left-1/2 max-md:-translate-x-1/2 max-md:top-2.5">
               <Description
                 text="VIDEO CAN BE EXCHANGED FOR CAMPAIGNS."
                 myClass="text-center leading-custom-xs !font-bold !font-sans-bold max-md:text-base"
