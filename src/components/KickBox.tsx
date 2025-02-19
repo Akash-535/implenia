@@ -14,7 +14,7 @@ const KickBox = () => {
     onChange: (inView) => setCount(inView),
   });
   return (
-    <div className="max-w-[1100px] mx-auto pt-[140px] pb-[136px] px-4 max-xl:py-28 max-lg:py-20 max-md:py-14">
+    <div className="max-w-[1112px] mx-auto pt-[140px] pb-[136px] px-4 max-xl:py-28 max-lg:py-20 max-md:py-14">
       <Heading text="IMPLENIA KICKBOX" myClass="max-lg:text-center" />
       <Description
         myClass="pt-4 pb-12 max-lg:pb-7 max-md:pb-4 max-sm:py-2 max-lg:text-center"
