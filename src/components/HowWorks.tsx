@@ -14,7 +14,7 @@ const HowWorks = () => {
         />
         <div
           onClick={() => setPlayVideo(!playVideo)}
-          className="bg-center cursor-pointer bg-cover bg-no-repeat bg-how-work-bg max-w-[1064px] max-xl:min-w-0 h-[580px] rounded-3xl relative max-lg:h-[450px] max-md:h-[300px]"
+          className="bg-center cursor-pointer xl:ml-1 bg-cover bg-no-repeat bg-how-work-bg max-w-[1064px] max-xl:min-w-0 h-[580px] rounded-3xl relative max-lg:h-[450px] max-md:h-[300px]"
         >
           {playVideo ? (
             <iframe

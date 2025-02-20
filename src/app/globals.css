@@ -1,16 +1,28 @@
 @font-face {
   font-family: "source-sans-bold";
-  src: url("../../public/assets/fonts/SourceSansPro-Bold.otf");
+  src: url("../../public/assets/fonts/SourceSansPro-Bold.ttf");
 }
 @font-face {
   font-family: "source-sans-regular";
-  src: url("../../public/assets/fonts/SourceSansPro-Regular.otf");
+  src: url("../../public/assets/fonts/SourceSansPro-Regular.ttf");
 }
 @font-face {
   font-family: "source-sans-light";
-  src: url("../../public/assets/fonts/SourceSansPro-Light.otf");
+  src: url("../../public/assets/fonts/SourceSansPro-Light.ttf");
+}
+@font-face {
+  font-family: "source-sans-semibold";
+  src: url("../../public/assets/fonts/SourceSansPro-Semibold.ttf");
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-shadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.swiper-wrapper {
+  display: flex;
+  max-width: 1140px;
+}

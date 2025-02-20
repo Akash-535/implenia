@@ -12,7 +12,10 @@ export default {
         "custom-black":"#1D1D1B",
         "custom-yellow":"#FEBE32",
         "custom-red":"#FF132D",
-        "custom-white":'#F5F5F5'
+        "custom-white":'#F5F5F5',
+        "custom-blue":"#009FE3",
+        "custom-gray":"#8F9090",
+        "custom-dark-yellow":"#EBA82C"
       },
       fontSize:{
         "custom-2xl":"21px",
@@ -30,7 +33,8 @@ export default {
     fontFamily:{
       "sans-bold":"source-sans-bold , sans-sarif",
       "sans-light":"source-sans-light ,sans-sarif",
-      "sans-regular":"source-sans-regular , sans-sarif"
+      "sans-regular":"source-sans-regular , sans-sarif",
+      "sans-semibold":"source-sans-semibold , sans-sarif"      
     },
     backgroundImage:{
       "hero-bg":"url('/assets/images/hero-bg.webp')",
@@ -38,7 +42,7 @@ export default {
     },
     boxShadow:{
      'header-shadow':"0px 4px 8px 0px #00000040"
-    }
+    },
   },
   plugins: [],
 } satisfies Config;
