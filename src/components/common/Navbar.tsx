@@ -6,7 +6,7 @@ import { NAVBAR_LIST } from "@/utils/helper";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const [active, setActive] = useState(null);
+  const [active, setActive] = useState<Number | null>(null);
   const activeHandler = (index: number) => {
     setActive(active === index ? null : index);
   };
@@ -21,7 +21,7 @@ const Navbar = () => {
             width={93}
             height={93}
             src="/assets/images/logo-icon.webp"
-            className="max-lg:size-16 max-sm:size-10"
+            className="max-lg:size-16 max-sm:size-10 object-cover"
             alt="logo image"
           />
         </Link>

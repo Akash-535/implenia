@@ -52,6 +52,7 @@ const OurCommunity = () => {
                     width={80}
                     height={80}
                     src="/assets/images/jens-vollmar.webp"
+                    className="object-cover"
                     alt="jens vollmar"
                   />
                   <div>

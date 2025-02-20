@@ -12,7 +12,7 @@ const Hero = () => {
         data-aos="fade-up-right"
         width={340}
         height={400}
-        className="pointer-events-none absolute -bottom-5 left-0 max-lg:w-[260px] max-md:h-[280px] max-md:w-[220px] max-sm:h-[260px] max-sm:w-[190px] max-md:bottom-4"
+        className="pointer-events-none absolute -bottom-5 left-0 max-lg:w-[260px] max-md:h-[280px] max-md:w-[220px] max-sm:h-[260px] max-sm:w-[190px] max-md:bottom-4 object-cover"
         src="/assets/images/hero-side-img.webp"
         alt="hero image"
       />
