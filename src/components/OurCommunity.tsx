@@ -8,6 +8,7 @@ import Heading from "./common/Heading";
 import Image from "next/image";
 import Description from "./common/Description";
 import CustomButton from "./common/CustomButton";
+import { PrevIcon, NextIcon } from "@/utils/icons";
 
 const OurCommunity = () => {
   return (
@@ -16,13 +17,11 @@ const OurCommunity = () => {
       className="py-[129.5px] px-4 flex flex-col items-start max-lg:items-center max-xl:py-28 max-lg:pt-20 max-lg:pb-14 max-md:py-14 max-md:pb-10 bg-custom-white"
     >
       <div className="container mx-auto relative">
-        <div className="absolute top-[58%] max-lg:hidden -translate-y-1/2 flex rotate-90 left-0 prev-button z-50 cursor-pointer size-10">
-          <span className="w-6 h-[2px] bg-black rotate-45 translate-y-1 translate-x-[9.5px]"></span>
-          <span className="w-6 h-[2px] bg-black -rotate-45 translate-y-1 translate-x-0.5"></span>
+        <div className="absolute top-[58%] max-lg:hidden -translate-y-1/2 flex left-0 prev-button z-50 cursor-pointer size-10">
+          <PrevIcon />
         </div>
-        <div className="absolute top-[58%] max-lg:hidden -translate-y-1/2 flex -rotate-90 right-0 next-button z-50 cursor-pointer size-10">
-          <span className="w-6 h-[2px] bg-black rotate-45 translate-y-1 translate-x-[9.5px]"></span>
-          <span className="w-6 h-[2px] bg-black -rotate-45 translate-y-1 translate-x-0.5"></span>
+        <div className="absolute top-[58%] max-lg:hidden -translate-y-1/2 flex right-0 next-button z-50 cursor-pointer size-10">
+          <NextIcon />
         </div>
         <Heading text="WHAT OUR COMMUNITY SAYS" myClass="max-lg:text-center" />
         <div className="pt-28 max-xl:pt-28 max-lg:pt-20 max-md:pt-10 max-sm:pt-5">
