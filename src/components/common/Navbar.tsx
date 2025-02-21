@@ -56,7 +56,7 @@ const Navbar = () => {
           className="z-[15] flex-col gap-1 lg:hidden flex cursor-pointer"
         >
           <span
-            className={`w-8 h-1 bg-custom-yellow duration-300  ease-linear rounded ${
+            className={`w-8 h-1 bg-custom-yellow duration-300 ease-linear rounded ${
               open && "rotate-45 translate-y-3"
             }`}
           ></span>
