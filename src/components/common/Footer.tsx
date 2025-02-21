@@ -43,7 +43,7 @@ const Footer = () => {
               <Link
                 href={item.link}
                 key={index}
-                className="leading-custom-2xl font-sans-regular tracking-[-0.22px] text-white max-md:text-sm"
+                className="leading-custom-2xl font-sans-regular tracking-[-0.22px] text-white max-md:text-sm hover:text-custom-yellow duration-300 ease-in-out"
               >
                 {item.title}
               </Link>
