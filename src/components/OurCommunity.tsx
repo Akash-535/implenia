@@ -72,7 +72,7 @@ const OurCommunity = () => {
                 </div>
                 <CustomButton
                   myClass="text-custom-red border-custom-red py-4 px-8 min-w-[268px] font-bold font-sans-bold hover:bg-custom-red hover:text-white mt-[39px] ml-5 max-lg:text-center max-lg:ml-0 max-lg:mt-6"
-                  text="More Stories"
+                  text="Join the community!"
                 />
               </SwiperSlide>
             ))}

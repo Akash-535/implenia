@@ -10,10 +10,7 @@ const Faq = () => {
     setOpen(open === index ? null : index);
   };
   return (
-    <div
-      id="contact"
-      className="pt-[128px] pb-[144px] max-lg:py-28 max-md:py-20 max-sm:py-14 px-4 bg-custom-white"
-    >
+    <div className="pt-[128px] pb-[144px] max-lg:py-28 max-md:py-20 max-sm:py-14 px-4 bg-custom-white">
       <div className="max-w-[1090px] mx-auto">
         <Heading text="FAQs" myClass="max-lg:text-center" />
         <div className="pt-5">

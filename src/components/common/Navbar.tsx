@@ -6,7 +6,7 @@ import { NAVBAR_LIST } from "@/utils/helper";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const [active, setActive] = useState<Number | null>(null);
+  const [active, setActive] = useState<Number | null>(0);
   const activeHandler = (index: number) => {
     setActive(active === index ? null : index);
   };

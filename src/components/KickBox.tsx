@@ -31,15 +31,7 @@ const KickBox = () => {
                 <span className="translate-x-[1px]">+</span>{" "}
                 <CountUp
                   start={0}
-                  end={
-                    count && i === 0
-                      ? 155
-                      : count && i === 1
-                      ? 325
-                      : count && i === 2
-                      ? 250
-                      : 0
-                  }
+                  end={count ? [155, 325, 250][i] : 0}
                   duration={3}
                 />
               </p>

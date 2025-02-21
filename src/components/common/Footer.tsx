@@ -5,7 +5,10 @@ import React from "react";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <div className="bg-black pt-[138px] pb-[65px] px-4 max-xl:pt-28 max-lg:pt-20 max-md:py-16">
+    <div
+      id="contact"
+      className="bg-black pt-[138px] pb-[65px] px-4 max-xl:pt-28 max-lg:pt-20 max-md:py-16"
+    >
       <div className="max-w-[1117px] mx-auto flex w-full justify-between max-md:flex-col">
         <div className="max-w-[456px] w-full flex justify-between max-lg:max-w-sm max-md:max-w-none">
           <div className="max-w-[289px]">
@@ -16,7 +19,7 @@ const Footer = () => {
               Thurgauerstrasse 101A <br /> 8152 Glattpark (Opfikon)
             </p>
             <Link
-              className="leading-custom-2xl tracking-[-0.22px] text-white font-sans-regular max-md:text-sm"
+              className="leading-custom-2xl tracking-[-0.22px] text-white font-sans-regular max-md:text-sm hover:text-custom-yellow duration-300 ease-in-out"
               href={"mailto:innovation@implenia.com"}
             >
               innovation@implenia.com
@@ -31,7 +34,7 @@ const Footer = () => {
             <p className="leading-custom-2xl mt-10 max-lg:mt-8 max-md:mt-5 tracking-[-0.22px] text-white font-sans-regular max-md:text-sm">
               Data Protection I Imprint
             </p>
-            <p className="leading-[12.57px] mt-[38px] max-lg:mt-8 max-md:mt-4 text-xs tracking-[-0.22px] text-white font-sans-regular max-md:text-sm">
+            <p className="max-md:hidden leading-custom-2xl mt-[38px] max-lg:mt-8 max-md:mt-4 text-xs tracking-[-0.22px] text-white font-sans-regular max-md:text-sm">
               Copyright © {year} Imlenia. Alle Rechte vorbehalten.
             </p>
           </div>
@@ -59,13 +62,13 @@ const Footer = () => {
               <input
                 type="email"
                 required
-                className="py-[17px] px-[19px] outline-none w-full bg-white"
+                className="py-[17px] px-[19px] outline-none w-full bg-white placeholder:text-black text-black placeholder:text-sm text-sm placeholder:font-sans-light font-sans-light"
                 placeholder="Ihre E-Mail"
               />
             </div>
             <textarea
               required
-              className="w-full resize-none mt-2 outline-none px-[15px] min-h-[121px] py-[18px] bg-white"
+              className="w-full resize-none mt-2 outline-none px-[15px] min-h-[121px] py-[18px] bg-white placeholder:text-sm text-sm placeholder:text-black text-black placeholder:font-sans-light font-sans-light"
               placeholder="Ihre E-Mail"
             ></textarea>
             <div className="w-full justify-end flex">
@@ -75,6 +78,9 @@ const Footer = () => {
             </div>
           </form>
         </div>
+        <p className="md:hidden leading-custom-2xl mt-[38px] text-xs tracking-[-0.22px] text-white font-sans-regular max-md:text-sm">
+          Copyright © {year} Imlenia. Alle Rechte vorbehalten.
+        </p>
       </div>
     </div>
   );

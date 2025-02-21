@@ -22,7 +22,7 @@ const KickBoxProcess = () => {
             <Image
               width={227}
               height={92}
-              className="max-lg:w-52"
+              className="max-lg:w-52 object-cover pointer-events-none"
               src={obj.image}
               alt="process box"
             />
@@ -41,7 +41,7 @@ const KickBoxProcess = () => {
               <h3 className="leading-custom-2xl text-custom-black text-[35px] tracking-[-0.66px] font-semibold font-sans-semibold pt-1.5">
                 {obj.heading}
               </h3>
-              <p className="max-w-[277px] text-custom-black text-custom-2xl max-lg:text-lg leading-custom-3xl tracking-[-0.28px] font-light font-sans-light">
+              <p className="max-w-[277px] pt-3 text-custom-black text-custom-2xl max-lg:text-lg leading-custom-3xl tracking-[-0.28px] font-light font-sans-light">
                 {obj.description}
               </p>
               <p className="max-w-[277px] text-custom-black pt-7 max-xl:pt-3 text-custom-2xl max-lg:text-lg leading-custom-3xl tracking-[-0.28px] font-light font-sans-light">
@@ -53,7 +53,7 @@ const KickBoxProcess = () => {
       </div>
       <CustomButton
         myClass="text-custom-red border-custom-red py-4 px-8 min-w-[268px] font-bold font-sans-bold hover:bg-custom-red hover:text-white mt-[39px] ml-5 max-lg:text-center max-lg:ml-0 max-lg:mt-6"
-        text="More Stories"
+        text="Start your RedBox!"
       />
     </div>
   );
