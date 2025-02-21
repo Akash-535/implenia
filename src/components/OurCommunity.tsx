@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -24,7 +25,7 @@ const OurCommunity = () => {
           <span className="w-6 h-[2px] bg-black -rotate-45 translate-y-1 translate-x-0.5"></span>
         </div>
         <Heading text="WHAT OUR COMMUNITY SAYS" myClass="max-lg:text-center" />
-        <div className="pt-36 max-xl:pt-28 max-lg:pt-20 max-md:pt-10 max-sm:pt-5">
+        <div className="pt-28 max-xl:pt-28 max-lg:pt-20 max-md:pt-10 max-sm:pt-5">
           <Swiper
             loop={true}
             navigation={{
