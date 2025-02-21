@@ -6,7 +6,10 @@ import Navbar from "./common/Navbar";
 
 const Hero = () => {
   return (
-    <div className="bg-hero-bg bg-cover bg-center bg-no-repeat relative max-w-[1920px] mx-auto">
+    <div
+      id="home"
+      className="bg-hero-bg bg-cover bg-center bg-no-repeat relative max-w-[1920px] mx-auto"
+    >
       <Navbar />
       <Image
         data-aos="fade-up-right"

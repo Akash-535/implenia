@@ -15,7 +15,8 @@ export default {
         "custom-white":'#F5F5F5',
         "custom-blue":"#009FE3",
         "custom-gray":"#8F9090",
-        "custom-dark-yellow":"#EBA82C"
+        "custom-dark-yellow":"#EBA82C",
+        "off-white":"#9DA1A2"
       },
       fontSize:{
         "custom-2xl":"21px",
@@ -34,7 +35,8 @@ export default {
       "sans-bold":"source-sans-bold , sans-sarif",
       "sans-light":"source-sans-light ,sans-sarif",
       "sans-regular":"source-sans-regular , sans-sarif",
-      "sans-semibold":"source-sans-semibold , sans-sarif"      
+      "sans-semibold":"source-sans-semibold , sans-sarif",
+      "sans-black":"source-sans-black , sans-sarif"      
     },
     backgroundImage:{
       "hero-bg":"url('/assets/images/hero-bg.webp')",

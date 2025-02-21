@@ -31,22 +31,22 @@ const Navbar = () => {
           }`}
         >
           {NAVBAR_LIST.map((obj, i) => (
-            <div key={i}>
+            <div key={i} className=" cursor-pointer">
               <Link
-                href="#"
+                href={obj.link}
                 onClick={() => activeHandler(i)}
-                className={`max-lg:hidden text-base font-bold font-sans-bold leading-custom-2xl tracking-[0.28px] duration-300 ease-linear hover:text-custom-yellow max-lg:text-white ${
+                className={`max-lg:hidden cursor-pointer text-base font-bold font-sans-bold leading-custom-2xl tracking-[0.28px] duration-300 ease-linear hover:text-custom-yellow max-lg:text-white ${
                   active === i && "text-custom-dark-yellow"
                 }`}
               >
-                {obj}
+                {obj.title}
               </Link>
               <Link
-                href="#"
+                href={obj.link}
                 onClick={() => setOpen(!open)}
-                className="lg:hidden text-base font-bold font-sans-bold leading-custom-2xl tracking-[0.28px] duration-300 ease-linear hover:text-custom-yellow max-lg:text-white"
+                className="lg:hidden cursor-pointer text-base font-bold font-sans-bold leading-custom-2xl tracking-[0.28px] duration-300 ease-linear hover:text-custom-yellow max-lg:text-white"
               >
-                {obj}
+                {obj.title}
               </Link>
             </div>
           ))}

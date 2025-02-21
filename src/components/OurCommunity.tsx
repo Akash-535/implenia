@@ -10,7 +10,10 @@ import CustomButton from "./common/CustomButton";
 
 const OurCommunity = () => {
   return (
-    <div className="py-[129.5px] px-4 flex flex-col items-start max-lg:items-center max-xl:py-28 max-lg:pt-20 max-lg:pb-14 max-md:py-14 max-md:pb-10 bg-custom-white">
+    <div
+      id="community"
+      className="py-[129.5px] px-4 flex flex-col items-start max-lg:items-center max-xl:py-28 max-lg:pt-20 max-lg:pb-14 max-md:py-14 max-md:pb-10 bg-custom-white"
+    >
       <div className="container mx-auto relative">
         <div className="absolute top-[58%] max-lg:hidden -translate-y-1/2 flex rotate-90 left-0 prev-button z-50 cursor-pointer size-10">
           <span className="w-6 h-[2px] bg-black rotate-45 translate-y-1 translate-x-[9.5px]"></span>

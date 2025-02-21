@@ -1,4 +1,6 @@
 "use client";
+import Footer from "@/components/common/Footer";
+import Faq from "@/components/Faq";
 import Hero from "@/components/Hero";
 import HowWorks from "@/components/HowWorks";
 import KickBox from "@/components/KickBox";
@@ -25,6 +27,8 @@ export default function Home() {
       <KickBoxProcess />
       <OurCommunity />
       <Stories />
+      <Faq />
+      <Footer />
     </>
   );
 }
