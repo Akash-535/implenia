@@ -44,7 +44,7 @@ const KickBoxProcess = () => {
               <p className="max-w-[277px] pt-3 text-custom-black text-custom-2xl max-lg:text-lg leading-custom-3xl tracking-[-0.28px] font-light font-sans-light">
                 {obj.description}
               </p>
-              <p className="max-w-[277px] text-custom-black pt-7 max-xl:pt-3 text-custom-2xl max-lg:text-lg leading-custom-3xl tracking-[-0.28px] font-light font-sans-light">
+              <p className="max-w-[257px] text-custom-black pt-7 max-xl:pt-3 text-custom-2xl max-lg:text-lg leading-custom-3xl tracking-[-0.28px] font-light font-sans-light">
                 {obj.descriptionTwo}
               </p>
             </div>
