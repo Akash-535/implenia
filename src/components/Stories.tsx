@@ -19,7 +19,7 @@ const Stories = () => {
           {STORIES_LIST.map((obj, i) => (
             <div
               key={i}
-              className="border border-solid max-w-[323px] border-black relative rounded-[28px]"
+              className="border border-solid max-w-[323px] border-black relative rounded-[28px] duration-300 ease-linear hover:shadow-card-shadow overflow-hidden"
             >
               <div
                 className={`max-w-[104px] w-full flex justify-center items-center min-h-[27px] rounded-[13.5px] absolute top-[27px] left-[23px] max-sm:top-4 max-sm:left-3 font-sans-semibold font-semibold ${
@@ -33,11 +33,11 @@ const Stories = () => {
               <Image
                 src={obj.image}
                 alt={obj.name}
-                width={325}
-                height={207}
-                className="rounded-[28px] max-md:rounded-2xl object-cover"
+                width={323}
+                height={208}
+                className="max-h-[208px] max-w-[323px] rounded-[28px] max-md:rounded-2xl object-cover"
               />
-              <h3 className="text-[35px] leading-[44px] tracking-[0.66px] max-lg:text-3xl max-md:text-2xl max-sm:text-xl max-lg:leading-[36px] max-md:leading-[32px] max-sm:leading-[28px] font-semibold text-blackLight pt-[49px] max-sm:py-8 max-sm:px-4 pb-[63.5px] pr-[17px] pl-[27.5px]">
+              <h3 className="text-[35px] leading-[44px] tracking-[0.66px] max-lg:text-3xl max-md:text-2xl max-sm:text-xl max-lg:leading-[36px] max-md:leading-[32px] max-sm:leading-[28px] font-semibold text-blackLight pt-[47px] max-sm:py-8 max-sm:px-4 pb-[63.5px] pr-[17px] pl-[27.5px]">
                 {obj.heading}
               </h3>
             </div>

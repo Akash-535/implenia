@@ -43,7 +43,8 @@ export default {
       "how-work-bg":"url('/assets/images/how-work-img.webp')"
     },
     boxShadow:{
-     'header-shadow':"0px 4px 8px 0px #00000040"
+     'header-shadow':"0px 4px 8px 0px #00000040",
+     'card-shadow':"0px 10px 80px 0px #00000840"
     },
   },
   plugins: [],

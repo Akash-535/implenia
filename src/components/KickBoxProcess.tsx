@@ -26,7 +26,7 @@ const KickBoxProcess = () => {
               src={obj.image}
               alt="process box"
             />
-            <div className="w-full max-w-[323px] min-h-[457px] border border-black p-[18px_20px_19px_26px] rounded-[28px] max-lg:min-h-[400px] max-lg:max-w-[300px] max-lg:px-[13px] object-cover">
+            <div className="w-full max-w-[323px] min-h-[457px] h-full border border-black p-[18px_20px_19px_26px] rounded-[28px] max-lg:min-h-[400px] max-lg:max-w-[300px] max-lg:px-[13px] object-cover">
               <p
                 className={`text-custom-2xl leading-custom-xs font-semibold ${
                   i === 0

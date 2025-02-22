@@ -72,7 +72,10 @@ const Footer = () => {
               placeholder="Ihre E-Mail"
             ></textarea>
             <div className="w-full justify-end flex">
-              <button className="py-[9.5px] px-[21.5px] bg-custom-red text-white font-bold text-sm hover:text-custom-red hover:bg-white duration-300 ease-linear">
+              <button
+                onClick={(e) => e.preventDefault()}
+                className="py-[9.5px] px-[21.5px] bg-custom-red text-white font-bold text-sm hover:text-custom-red hover:bg-white duration-300 ease-linear"
+              >
                 SENDEN
               </button>
             </div>

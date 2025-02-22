@@ -25,6 +25,9 @@ const OurCommunity = () => {
         </div>
         <Heading text="WHAT OUR COMMUNITY SAYS" myClass="max-lg:text-center" />
         <div className="pt-28 max-xl:pt-28 max-lg:pt-20 max-md:pt-10 max-sm:pt-5">
+          <p className="text-[100px] text-center -mb-9 leading-custom-2xl tracking-[-0.66px] font-normal font-sans-regular text-custom-yellow">
+            “
+          </p>
           <Swiper
             loop={true}
             navigation={{
@@ -41,9 +44,6 @@ const OurCommunity = () => {
             <div className="swiper-pagination max-lg:block hidden"></div>
             {[...Array(2)].map((_, i) => (
               <SwiperSlide key={i} className="text-center">
-                <p className="text-[100px] -mb-9 leading-custom-2xl tracking-[-0.66px] font-normal font-sans-regular text-custom-yellow">
-                  “
-                </p>
                 <p className="text-[32px] font-semibold font-sans-semibold max-w-[795px] mx-auto text-center leading-custom-2xl max-lg:text-2xl max-md:text-lg">
                   With innovative and efficient solutions we can surprise our
                   customers and increase our chances of success - I experienced
@@ -55,7 +55,7 @@ const OurCommunity = () => {
                     width={80}
                     height={80}
                     src="/assets/images/jens-vollmar.webp"
-                    className="object-cover"
+                    className="object-cover max-w-20 max-h-20 rounded-s-full"
                     alt="jens vollmar"
                   />
                   <div>

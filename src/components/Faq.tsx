@@ -15,7 +15,12 @@ const Faq = () => {
         <Heading text="FAQs" myClass="max-lg:text-center" />
         <div className="pt-5">
           {FAQ_LIST.map((obj, i) => (
-            <div key={i} className="border-b py-3.5 border-off-white">
+            <div
+              key={i}
+              className={`border-b py-3.5 border-off-white ${
+                i === 0 && "pt-0"
+              }`}
+            >
               <button
                 onClick={() => faqHandler(i)}
                 className="w-full justify-between flex items-center text-custom-2xl leading-custom-2xl font-semibold font-sans-semibold text-start gap-1 max-lg:text-xl max-md:text-lg"
@@ -30,7 +35,7 @@ const Faq = () => {
                 </span>
               </button>
               <div
-                className={`overflow-hidden duration-300 ease-linear ${
+                className={`overflow-auto duration-300 ease-linear ${
                   open === i ? "max-h-20" : "max-h-0"
                 }`}
               >
